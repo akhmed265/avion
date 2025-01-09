@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+  font-family: 'Clash Display', sans-serif;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  margin: 0;
+  padding: 20px 28px;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+  padding-bottom: 20px;
+}
+
+.header__search,
+.header__cart,
+.header__user {
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 16px;
+  height: 16px;
+}
+
+.header__search {
+  background-image: url(../img/search.svg);
+}
+
+.header__cart {
+  background-image: url(../img/shopping-cart.svg);
+  margin-right: 16px;
+}
+
+.header__user {
+  background-image: url(../img/user-avatar.svg);
+}
+
+.header__logo {
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: none;
+  color: #2A254B;
+}
+
+
+
+.main-nav {
+  padding-top: 20px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 44px;
+}
+
+.nav-link {
+  color: #726E8D;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #2A254B;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: center;
+  padding: 60px 80px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #FFFFFF;
+  background-color: #2A254B;
+  padding: 60px;
+}
+
+.hero-title {
+  font-weight: 400;
+  font-size: 32px;
+  width: 513px;
+  line-height: 44.8px;
+  margin: 0;
+  margin-bottom: 41px;
+}
+
+.hero-button {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 32px;
+  background-color: rgba(249, 249, 249, 0.15);
+  color: #FFFFFF;
+  border: none;
+}
+
+.hero-discription {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 602px;
+  margin: 0;
+}
+
+.features {
+  padding: 60px 86px;
+}
+
+.features__title {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #2A254B;
+  margin: 0;
+  margin-bottom: 51px;
+}
+
+.features__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+.feature:not(:last-child) {
+  margin-right: 59px;
+}
+
+.feature__title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #2A254B;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.feature__description {
+  font-family: 'Satoshi', sans-serif;    
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 266px;
+  margin: 0;
+}
+
+.listings {
+  padding: 80px 310px 48px;
+}
+
+.listings__title {
+  color: #2A254B;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 33px;
+}
+
+.listings__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.listings__item {
+  cursor: pointer;
+}
+
+.listings__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.listings__name {
+  color: #2A254B;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.listings__price {
+  font-family: 'Satoshi', sans-serif;
+  color: #2A254B;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 8px;
+}
+
+.listings__button {
+  display: block;
+  font-family: 'Satoshi', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 32px;
+  color: #2A254B;
+  background-color: #F9F9F9;
+  border: none;
+  cursor: pointer;
+  margin-top: 32px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.new-caramics__button {
+  margin-bottom: 56px;
+}
+
+.popular-products {
+  padding-top: 64px;
+}
+
+.listings__image-long {
+  width: 630px;
+  height: 375px;
+}
