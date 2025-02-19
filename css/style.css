@@ -31,7 +31,8 @@ button {
   padding-bottom: 20px;
 }
 
-.burger-checkbox {
+.burger-checkbox,
+.burger {
   display: none;
 }
 
